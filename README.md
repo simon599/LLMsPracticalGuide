@@ -87,27 +87,28 @@ These sources aim to help practitioners navigate the vast landscape of healthcar
 ### 2.3.2 Fine-tuning
 
 * DoctorGLM
-  * 20
+  * Doctorglm: Fine-tuning your chinese doctor is not a herculean task. 2023. [paper](https://arxiv.org/abs/2304.01097)
 * BianQue
-  * 83
+  * BianQue: Balancing the Questioning and Suggestion Ability of Health LLMs with Multi-turn Health Conversations Polished by ChatGPT. 2023. [paper](https://arxiv.org/abs/2310.15896)
 * ClinicalGPT
-  * 84
+  * ClinicalGPT: Large Language Models Finetuned with Diverse Medical Data and Comprehensive Evaluation. 2023. [paper](https://arxiv.org/abs/2306.09968)
 * Qilin-Med
-  * 87
+  * Qilin-Med: Multi-stage Knowledge Injection Advanced Medical Large Language Model. 2023. [paper](https://arxiv.org/abs/2310.09089)
 * Qilin-Med-VL
-  * 88
+  * Qilin-Med-VL: Towards Chinese Large Vision-Language Model for General Healthcare. 2023. [paper](https://arxiv.org/abs/2310.17956)
 * ChatDoctor
-  * 19
+  * ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge. 2023. [paper](https://www.cureus.com/articles/152858-chatdoctor-a-medical-chat-model-fine-tuned-on-a-large-language-model-meta-ai-llama-using-medical-domain-knowledge.pdf)
 * BenTsao
-  * 17
+  * Huatuo: Tuning llama model with chinese medical knowledge. 2023. [paper](https://arxiv.org/abs/2304.06975)
 * HuatuoGPT
-  * 92
+  * HuatuoGPT, towards Taming Language Model to Be a Doctor. 2023. [paper](https://arxiv.org/abs/2305.15075)
 * LLaVA-Med
-  * 93
+  * Llava-med: Training a large language-and-vision assistant for biomedicine in one day. 2023. [paper](https://arxiv.org/abs/2306.00890)
 * Baize-healthcare
-  * 95
+  * ?
 * Visual Med-Alpeca
-  * 96
+  * Visual med-alpaca: A parameter-efficient biomedical
+llm with visual capabilities. 2023. [Repo](https://github.com/cambridgeltl/visual-med-alpaca)
 * PMC-LLaMA
   * 21
 * Clinical Camel
