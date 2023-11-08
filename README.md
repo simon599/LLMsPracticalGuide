@@ -73,16 +73,16 @@ These sources aim to help practitioners navigate the vast landscape of healthcar
   * Detecting redundancy in electronic medical records using clinical bert. 2020. [paper](https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/E3-3.pdf)
   * Identification of semantically similar sentences in clinical notes: Iterative intermediate training using multi-task learning. 2020. [paper](https://medinform.jmir.org/2020/11/e22508/)
 * BioCPT
-  * 74
+  * Biocpt: Contrastive pre-trained transformers with large-scale pubmed search logs for zero-shot biomedical information retrieval. 2023. [paper](https://arxiv.org/abs/2307.00589)
 * BioGPT
-  * 75
+  * BioGPT: generative pre-trained transformer for biomedical text generation and mining. 2022. [paper](https://academic.oup.com/bib/article-abstract/23/6/bbac409/6713511)
 * OphGLM
-  * 78
+  * OphGLM: Training an Ophthalmology Large Language-and-Vision Assistant based on Instructions and Dialogue. 2023. [paper](https://arxiv.org/abs/2306.12174)
 * GatorTron
-  * 80
-  * 23
+  * Gatortron: A large clinical language model to unlock patient information from unstructured electronic health records. 2022. [paper](https://arxiv.org/abs/2203.03540)
+  * A large language model for electronic health records. 2022. [paper](https://www.nature.com/articles/s41746-022-00742-2)
 * GatorTronGPT
-  * 81
+  * A Study of Generative Large Language Model for Medical Research and Healthcare. 2023. [paper](https://arxiv.org/abs/2305.13523)
 
 ### 2.3.2 Fine-tuning
 
@@ -117,70 +117,158 @@ These sources aim to help practitioners navigate the vast landscape of healthcar
 * MedPaLM M
   * 102
 
-
-- GPT **Improving Language Understanding by Generative Pre-Training**. 2018. [Paper](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
-- GPT-2 **Language Models are Unsupervised Multitask Learners**. 2018. [Paper](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
-- GPT-3 **"Language Models are Few-Shot Learners"**. NeurIPS 2020. [Paper](https://arxiv.org/abs/2005.14165)
-- OPT **"OPT: Open Pre-trained Transformer Language Models"**. 2022. [Paper](https://arxiv.org/abs/2205.01068)
-- PaLM **"PaLM: Scaling Language Modeling with Pathways"**. *Aakanksha Chowdhery et al.* arXiv 2022. [Paper](https://arxiv.org/abs/2204.02311)
-- BLOOM  **"BLOOM: A 176B-Parameter Open-Access Multilingual Language Model"**. 2022. [Paper](https://arxiv.org/abs/2211.05100)
-- MT-NLG **"Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model"**. 2021. [Paper](https://arxiv.org/abs/2201.11990)
-- GLaM **"GLaM: Efficient Scaling of Language Models with Mixture-of-Experts"**. ICML 2022. [Paper](https://arxiv.org/abs/2112.06905)
-- Gopher **"Scaling Language Models: Methods, Analysis & Insights from Training Gopher"**. 2021. [Paper](http://arxiv.org/abs/2112.11446v2)
-- chinchilla **"Training Compute-Optimal Large Language Models"**. 2022. [Paper](https://arxiv.org/abs/2203.15556)
-- LaMDA **"LaMDA: Language Models for Dialog Applications"**. 2021. [Paper](https://arxiv.org/abs/2201.08239)
-- LLaMA **"LLaMA: Open and Efficient Foundation Language Models"**. 2023. [Paper](https://arxiv.org/abs/2302.13971v1)
-- GPT-4 **"GPT-4 Technical Report"**. 2023. [Paper](http://arxiv.org/abs/2303.08774v2)
-- BloombergGPT **BloombergGPT: A Large Language Model for Finance**, 2023, [Paper](https://arxiv.org/abs/2303.17564)
-- GPT-NeoX-20B: **"GPT-NeoX-20B: An Open-Source Autoregressive Language Model"**. 2022. [Paper](https://arxiv.org/abs/2204.06745)
-- PaLM 2: **"PaLM 2 Technical Report"**. 2023. [Tech.Report](https://arxiv.org/abs/2305.10403)
-- LLaMA 2: **"Llama 2: Open foundation and fine-tuned chat models"**. 2023. [Paper](https://arxiv.org/pdf/2307.09288)
-- Claude 2: **"Model Card and Evaluations for Claude Models"**. 2023. [Model Card](https://www-files.anthropic.com/production/images/Model-Card-Claude-2.pdf)
-
-
 ### 2.3.3 Prompting
+* DelD-GPT
+  * 103
+* ChatCAD
+  * 105
+* Dr. Knows
+  * 106
+* MedPaLM
+  * 14
 
 ## 3. Clinical Applications
 
 ### 3.1 Medical Diagnosis
+* 125
+* 126
+* 127
+* 12
+* 106
+* 107
+* 108
+* 106
+* 105
 
 ### 3.2 Formatting and ICD-Coding
+* 128
+* 129
+* 130
+* 131
+* 70
+* 132
 
 ### 3.3 Clinical Report Generation
+* 133
+* 134
+* 135
+* 105
+* 136
+* 137
+* 138
+* 139
+* 88
+* 140
 
 ### 3.4 Medical Education
+* 141
+* 142
+* 143
+* 144
+* 145
+* 146
+* 147
 
 ### 3.5 Medical Robotics
+* 148
+* 149
+* 150
+* 151
+* 145
+* 152
 
 ### 3.6 Medical Language Translation
+* 153
+* 154
+* 155
+* 146
+* 147
 
 ### 3.7 Mental Health Support
+* 156
+* 157
+* 158
+* 159
+* 160
+* 161
 
 ## 4. Challenges
 
 ### 4.1 Hallucination
+* 27
+* 28
+* 29
+* 163
+* 164
+* 165
+* 166
+* 167
 
-### 4.2 Domain Data Limitations
+### 4.2 Lack of Evaluation Benchmarks and Metrics
+* 22
+* 115
+* 14
+* 168
+* 169
 
-### 4.3 New Knowledge Adaptation
+### 4.3 Domain Data Limitations
+* 14
+* 15
+* 19
+* 170
+* 171
 
-### 4.4 Behavior Alignment
+### 4.4 New Knowledge Adaptation
+* 172
+* 173
+* 174
 
-### 4.5 Lack of Evaluation Benchmarks and Metrics
+### 4.5 Behavior Alignment
+* 48
+* 175
+* 176
+* 124
+* 121
+* 177
+* 178
+* 179
+* 180
 
 ### 4.6 Ethical, Legal, and Safety Concerns. 
+* 162
+* 181
+* 182
+* 112
+* 183
 
 ## 5. Future directions
 
-### 5.1 Introduction to New Benchmarks
+
+### 5.1 Introduction of New Benchmarks
+* 184
+* 185
+* 14
 
 ### 5.2 Interdisciplinary Collaborations
+* 185
+* 186
 
 ### 5.3 Multi-modal LLM
+* 187
+* 188
+* 189
+* 190
+* 191
+* 192
+* 193
 
 ### 5.4 LLMs in less established fields of healthcare
+* 194
+* 195
+* 196
+* 197
 
-
+***Ignore Below***
 ### Pretraining data
 - **RedPajama**, 2023. [Repo](https://github.com/togethercomputer/RedPajama-Data)
 - **The Pile: An 800GB Dataset of Diverse Text for Language Modeling**, Arxiv 2020. [Paper](https://arxiv.org/abs/2101.00027)
