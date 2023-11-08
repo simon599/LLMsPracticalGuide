@@ -5,16 +5,15 @@
 	<img src="https://camo.githubusercontent.com/64f8905651212a80869afbecbf0a9c52a5d1e70beab750dea40a994fa9a9f3c6/68747470733a2f2f617765736f6d652e72652f62616467652e737667" alt="Awesome" data-canonical-src="https://awesome.re/badge.svg" style="max-width: 100%;">	     
 </p>
 
-A curated (still actively updated) list of practical guide resources of LLMs. It's based on our survey paper: [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](https://arxiv.org/abs/2304.13712) and efforts from @[xinyadu](https://github.com/xinyadu). The survey is partially based on the second half of this [Blog](https://jingfengyang.github.io/gpt). We also build an evolutionary tree of modern Large Language Models (LLMs) to trace the development of language models in recent years and highlights some of the most well-known models. 
+This is an actively updated list of practical guide resources of healthcare LLMs. It's based on our survey paper: [A Survey of Large Language Models for Healthcare: Progress, Application, and Challenge](https://arxiv.org/) and efforts from @[simon599](https://github.com/simon599). 
 
-These sources aim to help practitioners navigate the vast landscape of large language models (LLMs) and their applications in natural language processing (NLP) applications. We also include their usage restrictions based on the model and data licensing information.
-If you find any resources in our repository helpful, please feel free to use them (don't forget to cite our paper! 😃). We welcome pull requests to refine this figure! 
+These sources aim to help practitioners navigate the vast landscape of healthcare-specific large language models (LLMs) and their applications in medical natural language processing (NLP) applications. If you find any resources in our repository helpful, please feel free to use them (don't forget to cite our paper! 😃). We welcome pull requests to refine this figure! 
 
 <p align="center">
 <img width="600" src="./imgs/tree.jpg"/>
 </p>
 
-
+**bibtex to be changed
 ```bibtex
     @article{yang2023harnessing,
         title={Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond}, 
@@ -27,22 +26,9 @@ If you find any resources in our repository helpful, please feel free to use the
 ```
 
 ## Latest News💥
-- We added usage and restrictions section.
-- We used PowerPoint to plot the figure and released the source file [pptx](./source/figure_gif.pptx) for our GIF figure. [4/27/2023]
-- We released the source file for the still version [pptx](./source/figure_still.pptx), and replaced the figure in this repo with the still version. [4/29/2023]
-- Add AlexaTM, UniLM, UniLMv2 to the figure, and correct the logo for Tk. [4/29/2023]
-- Add usage and Restrictions (for commercial and research purposes) section. Credits to [Dr. Du](https://github.com/xinyadu).  [5/8/2023]
+- Version 1 published
 
-
-
-
-## Other Practical Guides for LLMs
-
-- **Why did all of the public reproduction of GPT-3 fail? In which tasks should we use GPT-3.5/ChatGPT?** 2023, [Blog](https://jingfengyang.github.io/gpt) 
-- **Building LLM applications for production**, 2023, [Blog](https://huyenchip.com/2023/04/11/llm-engineering.html)
-- **Data-centric Artificial Intelligence**, 2023, [Repo](https://github.com/daochenzha/data-centric-AI)/[Blog](https://towardsdatascience.com/what-are-the-data-centric-ai-concepts-behind-gpt-models-a590071bb727)/[Paper](https://arxiv.org/abs/2303.10158)
-
-
+**catalog to be updated
 ## Catalog
 * [The Practical Guides for Large Language Models ](#the-practical-guides-for-large-language-models-)
    * [Practical Guide for Models](#practical-guide-for-models)
@@ -69,23 +55,68 @@ If you find any resources in our repository helpful, please feel free to use the
          * [Alignment Efforts of Open-source Communtity](#alignment-efforts-of-open-source-communtity)
    * [Usage and Restractions (Models and Data)](#Usage-and-Restrictions)
 
-## Practical Guide for Models
+## 2.3 Medical-domain LLMs
 
-### BERT-style Language Models: Encoder-Decoder or Encoder-only
+### 2.3.1 Pre-training
 
-- BERT **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**, 2018, [Paper](https://aclanthology.org/N19-1423.pdf)
-- RoBERTa **RoBERTa: A Robustly Optimized BERT Pretraining Approach**, 2019, [Paper](https://arxiv.org/abs/1907.11692)
-- DistilBERT **DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter**, 2019, [Paper](https://arxiv.org/abs/1910.01108)
-- ALBERT **ALBERT: A Lite BERT for Self-supervised Learning of Language Representations**, 2019, [Paper](https://arxiv.org/abs/1909.11942)
-- UniLM **Unified Language Model Pre-training for Natural Language Understanding and Generation**, 2019 [Paper](https://arxiv.org/abs/1905.03197)
-- ELECTRA **ELECTRA: PRE-TRAINING TEXT ENCODERS AS DISCRIMINATORS RATHER THAN GENERATORS**, 2020, [Paper](https://openreview.net/pdf?id=r1xMH1BtvB)
-- T5 **"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"**. *Colin Raffel et al.* JMLR 2019. [Paper](https://arxiv.org/abs/1910.10683)
-- GLM **"GLM-130B: An Open Bilingual Pre-trained Model"**. 2022. [Paper](https://arxiv.org/abs/2210.02414)
-- AlexaTM **"AlexaTM 20B: Few-Shot Learning Using a Large-Scale Multilingual Seq2Seq Model"**. *Saleh Soltan et al.* arXiv 2022. [Paper](https://arxiv.org/abs/2208.01448)
-- ST-MoE **ST-MoE: Designing Stable and Transferable Sparse Expert Models**. 2022 [Paper](https://arxiv.org/abs/2202.08906)
+* BioBERT
+  * BioBERT: a pre-trained biomedical language representation model for biomedical text mining. 2020. [paper](https://academic.oup.com/bioinformatics/article-abstract/36/4/1234/5566506)
+  * Saama research at mediqa 2019: Pre-trained biobert with attention visualisation for medical natural language inference. 2019. [paper](https://aclanthology.org/W19-5055/)
+* PubMedBERT
+  * Domain-specific language model pretraining for biomedical natural language processing. 2021. [paper](https://dl.acm.org/doi/abs/10.1145/3458754)
+* SciBERT
+  * SciBERT: A pretrained language model for scientific text. 2019. [paper](https://arxiv.org/abs/1903.10676)
+* ClinicalBERT
+  * Publicly available clinical BERT embeddings. 2019. [paper](https://arxiv.org/abs/1904.03323)
+* BlueBERT
+  * Transfer learning in biomedical natural language processing: an evaluation of BERT and ELMo on ten benchmarking datasets. 2019. [paper](https://arxiv.org/abs/1906.05474)
+  * Detecting redundancy in electronic medical records using clinical bert. 2020. [paper](https://www.anlp.jp/proceedings/annual_meeting/2020/pdf_dir/E3-3.pdf)
+  * Identification of semantically similar sentences in clinical notes: Iterative intermediate training using multi-task learning. 2020. [paper](https://medinform.jmir.org/2020/11/e22508/)
+* BioCPT
+  * 74
+* BioGPT
+  * 75
+* OphGLM
+  * 78
+* GatorTron
+  * 80
+  * 23
+* GatorTronGPT
+  * 81
 
+### 2.3.2 Fine-tuning
 
-### GPT-style Language Models: Decoder-only
+* DoctorGLM
+  * 20
+* BianQue
+  * 83
+* ClinicalGPT
+  * 84
+* Qilin-Med
+  * 87
+* Qilin-Med-VL
+  * 88
+* ChatDoctor
+  * 19
+* BenTsao
+  * 17
+* HuatuoGPT
+  * 92
+* LLaVA-Med
+  * 93
+* Baize-healthcare
+  * 95
+* Visual Med-Alpeca
+  * 96
+* PMC-LLaMA
+  * 21
+* Clinical Camel
+  * 18
+* MedPaLM 2
+  * 101
+* MedPaLM M
+  * 102
+
 
 - GPT **Improving Language Understanding by Generative Pre-Training**. 2018. [Paper](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
 - GPT-2 **Language Models are Unsupervised Multitask Learners**. 2018. [Paper](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
@@ -107,8 +138,47 @@ If you find any resources in our repository helpful, please feel free to use the
 - Claude 2: **"Model Card and Evaluations for Claude Models"**. 2023. [Model Card](https://www-files.anthropic.com/production/images/Model-Card-Claude-2.pdf)
 
 
+### 2.3.3 Prompting
 
-## Practical Guide for Data
+## 3. Clinical Applications
+
+### 3.1 Medical Diagnosis
+
+### 3.2 Formatting and ICD-Coding
+
+### 3.3 Clinical Report Generation
+
+### 3.4 Medical Education
+
+### 3.5 Medical Robotics
+
+### 3.6 Medical Language Translation
+
+### 3.7 Mental Health Support
+
+## 4. Challenges
+
+### 4.1 Hallucination
+
+### 4.2 Domain Data Limitations
+
+### 4.3 New Knowledge Adaptation
+
+### 4.4 Behavior Alignment
+
+### 4.5 Lack of Evaluation Benchmarks and Metrics
+
+### 4.6 Ethical, Legal, and Safety Concerns. 
+
+## 5. Future directions
+
+### 5.1 Introduction to New Benchmarks
+
+### 5.2 Interdisciplinary Collaborations
+
+### 5.3 Multi-modal LLM
+
+### 5.4 LLMs in less established fields of healthcare
 
 
 ### Pretraining data
