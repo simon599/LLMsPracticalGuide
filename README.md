@@ -110,164 +110,164 @@ These sources aim to help practitioners navigate the vast landscape of healthcar
   * Visual med-alpaca: A parameter-efficient biomedical
 llm with visual capabilities. 2023. [Repo](https://github.com/cambridgeltl/visual-med-alpaca)
 * PMC-LLaMA
-  * 21
+  * Pmc-llama: Further finetuning llama on medical papers. 2023. [paper](https://arxiv.org/abs/2304.14454)
 * Clinical Camel
-  * 18
+  * Clinical Camel: An Open-Source Expert-Level Medical Language Model with Dialogue-Based Knowledge Encoding. 2023. [paper](https://arxiv.org/abs/2305.12031)
 * MedPaLM 2
-  * 101
+  * Towards expert-level medical question answering with large language models. 2023. [paper](https://arxiv.org/abs/2305.09617)
 * MedPaLM M
-  * 102
+  * Towards generalist biomedical ai. 2023. [paper](https://arxiv.org/abs/2307.14334)
 
 ### 2.3.3 Prompting
 * DelD-GPT
-  * 103
+  * Deid-gpt: Zero-shot medical text de-identification by gpt-4. 2023. [paper](https://arxiv.org/abs/2303.11032)
 * ChatCAD
-  * 105
+  * Chatcad: Interactive computer-aided diagnosis on medical image using large language models. 2023. [paper](https://arxiv.org/abs/2302.07257)
 * Dr. Knows
-  * 106
+  * Leveraging a medical knowledge graph into large language models for diagnosis prediction. 2023. [paper](https://arxiv.org/abs/2308.14321)
 * MedPaLM
-  * 14
+  * Large language models encode clinical knowledge. 2022. [paper](https://arxiv.org/abs/2212.13138)
 
 ## 3. Clinical Applications
 
 ### 3.1 Medical Diagnosis
-* 125
-* 126
-* 127
-* 12
-* 106
-* 107
-* 108
-* 106
-* 105
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
 ### 3.2 Formatting and ICD-Coding
-* 128
-* 129
-* 130
-* 131
-* 70
-* 132
+* 
+* 
+* 
+* 
+* 
+* 
 
 ### 3.3 Clinical Report Generation
-* 133
-* 134
-* 135
-* 105
-* 136
-* 137
-* 138
-* 139
-* 88
-* 140
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+*
+* 
 
 ### 3.4 Medical Education
-* 141
-* 142
-* 143
-* 144
-* 145
-* 146
-* 147
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
 ### 3.5 Medical Robotics
-* 148
-* 149
-* 150
-* 151
-* 145
-* 152
+* 
+* 
+* 
+* 
+* 
+* 
 
 ### 3.6 Medical Language Translation
-* 153
-* 154
-* 155
-* 146
-* 147
+* 
+* 
+* 
+* 
+* 
 
 ### 3.7 Mental Health Support
-* 156
-* 157
-* 158
-* 159
-* 160
-* 161
+* 
+* 
+* 
+* 
+* 
+* 
 
 ## 4. Challenges
 
 ### 4.1 Hallucination
-* 27
-* 28
-* 29
-* 163
-* 164
-* 165
-* 166
-* 167
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
 ### 4.2 Lack of Evaluation Benchmarks and Metrics
-* 22
-* 115
-* 14
-* 168
-* 169
+* 
+* 
+* 
+* 
+* 
 
 ### 4.3 Domain Data Limitations
-* 14
-* 15
-* 19
-* 170
-* 171
+* 
+* 
+* 
+* 
+* 
 
 ### 4.4 New Knowledge Adaptation
-* 172
-* 173
-* 174
+* 
+* 
+* 
 
 ### 4.5 Behavior Alignment
-* 48
-* 175
-* 176
-* 124
-* 121
-* 177
-* 178
-* 179
-* 180
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
 ### 4.6 Ethical, Legal, and Safety Concerns. 
-* 162
-* 181
-* 182
-* 112
-* 183
+* 
+* 
+* 
+* 
+* 
 
 ## 5. Future directions
 
 
 ### 5.1 Introduction of New Benchmarks
-* 184
-* 185
-* 14
+* 
+* 
+* 
 
 ### 5.2 Interdisciplinary Collaborations
-* 185
-* 186
+* 
+* 
 
 ### 5.3 Multi-modal LLM
-* 187
-* 188
-* 189
-* 190
-* 191
-* 192
-* 193
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
 ### 5.4 LLMs in less established fields of healthcare
-* 194
-* 195
-* 196
-* 197
+* 
+* 
+* 
+* 
 
 ***Ignore Below***
 ### Pretraining data
