@@ -1,8 +1,5 @@
 <h1 align="center">The Practical Guides for Medical Large Language Models </h1>
 
-
-
-
 This is an actively updated list of practical guide resources of healthcare LLMs. It's based on our survey paper: [A Survey of Large Language Models for Healthcare: Progress, Application, and Challenge](https://arxiv.org/) and efforts from @[simon599](https://github.com/simon599). 
 
 These sources aim to help practitioners navigate the vast landscape of healthcare-specific large language models (LLMs) and their applications in medical natural language processing (NLP) applications. If you find any resources in our repository helpful, please feel free to use them (don't forget to cite our paper! 😃). 
@@ -22,7 +19,6 @@ These sources aim to help practitioners navigate the vast landscape of healthcar
 ## Latest News💥
 - Version 1 live!
 
-**catalog to be updated
 ## Catalog
 * [Medical-domain LLMs](#23-medical-domain-llms)
    * [Pre-training](#231-pre-training)
