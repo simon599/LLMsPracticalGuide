@@ -31,7 +31,7 @@ These sources aim to help practitioners navigate the vast landscape of healthcar
 
 **catalog to be updated
 ## Catalog
-* [Medical-domain LLMs](#23-Medical-domain LLMs)
+* [Medical-domain LLMs](#23-medical-domain-llms)
    * [Practical Guide for Models](#practical-guide-for-models)
       * [BERT-style Language Models: Encoder-Decoder or Encoder-only](#bert-style-language-models-encoder-decoder-or-encoder-only)
       * [GPT-style Language Models: Decoder-only](#gpt-style-language-models-decoder-only)
