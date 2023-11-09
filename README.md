@@ -7,8 +7,9 @@
 
 This is an actively updated list of practical guide resources of healthcare LLMs. It's based on our survey paper: [A Survey of Large Language Models for Healthcare: Progress, Application, and Challenge](https://arxiv.org/) and efforts from @[simon599](https://github.com/simon599). 
 
-These sources aim to help practitioners navigate the vast landscape of healthcare-specific large language models (LLMs) and their applications in medical natural language processing (NLP) applications. If you find any resources in our repository helpful, please feel free to use them (don't forget to cite our paper! 😃). We welcome pull requests to refine this figure! 
+These sources aim to help practitioners navigate the vast landscape of healthcare-specific large language models (LLMs) and their applications in medical natural language processing (NLP) applications. If you find any resources in our repository helpful, please feel free to use them (don't forget to cite our paper! 😃). 
 
+*image placeholder
 <p align="center">
 <img width="600" src="./imgs/tree.jpg"/>
 </p>
@@ -26,7 +27,7 @@ These sources aim to help practitioners navigate the vast landscape of healthcar
 ```
 
 ## Latest News💥
-- Version 1 published
+- Version 1 live!
 
 **catalog to be updated
 ## Catalog
@@ -131,67 +132,56 @@ llm with visual capabilities. 2023. [Repo](https://github.com/cambridgeltl/visua
 ## 3. Clinical Applications
 
 ### 3.1 Medical Diagnosis
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+* Designing a Deep Learning-Driven Resource-Efficient Diagnostic System for Metastatic Breast Cancer: Reducing Long Delays of Clinical Diagnosis and Improving Patient Survival in Developing Countries. 2023. [paper](https://arxiv.org/abs/2308.02597)
+* AI in health and medicine. 2022. [paper](https://www.nature.com/articles/s41591-021-01614-0)
+* Large language models in medicine. 2023. [paper](https://www.nature.com/articles/s41591-023-02448-8)
+* Leveraging a medical knowledge graph into large language models for diagnosis prediction. 2023. [paper](https://arxiv.org/abs/2308.14321)
+* Chatcad: Interactive computer-aided diagnosis on medical image using large language models. 2023. [paper](https://arxiv.org/abs/2302.07257)
 
 ### 3.2 Formatting and ICD-Coding
-* 
-* 
-* 
-* 
-* 
-* 
+* Applying large language model artificial intelligence for retina International Classification of Diseases (ICD) coding. 2023. [paper](https://www.researchgate.net/profile/Ramesh-Venkatesh/publication/375076384_Applying_large_language_model_artificial_intelligence_for_retina_International_Classification_of_Diseases_ICD_coding/links/653f9d31ff8d8f507cd9ac4c/Applying-large-language-model-artificial-intelligence-for-retina-International-Classification-of-Diseases-ICD-coding.pdf)
+* PLM-ICD: automatic ICD coding with pretrained language models. 2022. [paper](https://arxiv.org/abs/2207.05289)
+* MIMIC-III, a freely accessible critical care database. 2016. [paper](https://www.nature.com/articles/sdata201635)
+* Generative ai text classification using ensemble llm approaches. 2023. [paper](https://arxiv.org/abs/2309.07755)
 
 ### 3.3 Clinical Report Generation
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-*
-* 
+* Reporting guidelines for clinical trials evaluating artificial intelligence interventions are needed. 2019. [paper](https://www.nature.com/articles/s41591-019-0603-3)
+* Reporting guidelines for clinical trial reports for interventions involving artificial intelligence: the CONSORT-AI extension. 2010. [paper](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30218-1/fulltext)
+* Retrieve, reason, and refine: Generating accurate and faithful patient instructions. 2022. [paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/77c08a6e68ae25433f1d117283c0e312-Abstract-Conference.html)
+* Chatcad: Interactive computer-aided diagnosis on medical image using large language models. 2023. [paper](https://arxiv.org/abs/2302.07257)
+* Can GPT-4V (ision) Serve Medical Applications? Case Studies on GPT-4V for Multimodal Medical Diagnosis. 2023. [paper](https://arxiv.org/abs/2310.09909)
+* Qilin-Med-VL: Towards Chinese Large Vision-Language Model for General Healthcare. 2023. [paper](https://arxiv.org/abs/2310.17956)
+* Customizing General-Purpose Foundation Models for Medical Report Generation. 2023. [paper](https://arxiv.org/abs/2306.05642)
+* Towards generalist foundation model for radiology. 2023. [paper](https://arxiv.org/abs/2308.02463)
+* Pmc-vqa: Visual instruction tuning for medical visual question answering. 2023. [paper](https://arxiv.org/abs/2305.10415)
+* Clinical Text Summarization: Adapting Large Language Models Can Outperform Human Experts. 2023. [paper](https://arxiv.org/abs/2309.07430)
 
 ### 3.4 Medical Education
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+* Large Language Models in Medical Education: Opportunities, Challenges, and Future Directions. 2023. [paper](https://mededu.jmir.org/2023/1/e48291/)
+* Large ai models in health informatics: Applications, challenges, and the future. 2023. [paper](https://ieeexplore.ieee.org/abstract/document/10261199/)
+* The Advent of Generative Language Models in Medical Education. 2023. [paper](https://mededu.jmir.org/2023/1/e48163)
+* The impending impacts of large language models on medical education. 2023. [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10020064/)
 
 ### 3.5 Medical Robotics
-* 
-* 
-* 
-* 
-* 
-* 
+* A Nested U-Structure for Instrument Segmentation in Robotic Surgery. 2023. [paper](https://ieeexplore.ieee.org/abstract/document/10218893/)
+* The multi-trip autonomous mobile robot scheduling problem with time windows in a stochastic environment at smart hospitals. 2023. [paper](https://www.mdpi.com/2076-3417/13/17/9879)
+* Advanced robotics for medical rehabilitation. 2016. [paper](https://link.springer.com/content/pdf/10.1007/978-3-319-19896-5.pdf)
+* GRID: Scene-Graph-based Instruction-driven Robotic Task Planning. 2023. [paper](https://arxiv.org/abs/2309.07726)
+* Large ai models in health informatics: Applications, challenges, and the future. 2023. [paper](https://ieeexplore.ieee.org/abstract/document/10261199/)
+* Trust in Construction AI-Powered Collaborative Robots: A Qualitative Empirical Analysis. 2023. [paper](https://arxiv.org/abs/2308.14846)
 
 ### 3.6 Medical Language Translation
-* 
-* 
-* 
-* 
-* 
+* Machine translation of standardised medical terminology using natural language processing: A Scoping Review. 2023. [paper](https://www.sciencedirect.com/science/article/pii/S1871678423000432)
+* The Advent of Generative Language Models in Medical Education. 2023. [paper](https://mededu.jmir.org/2023/1/e48163)
+* The impending impacts of large language models on medical education. 2023. [paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10020064/)
 
 ### 3.7 Mental Health Support
-* 
-* 
-* 
-* 
-* 
-* 
+* ChatCounselor: A Large Language Models for Mental Health Support. 2023. [paper](https://arxiv.org/abs/2309.15461)
+* An overview of the features of chatbots in mental health: A scoping review. 2019. [paper](https://www.sciencedirect.com/science/article/pii/S1386505619307166)
+* Tell me, what are you most afraid of? Exploring the Effects of Agent Representation on Information Disclosure in Human-Chatbot Interaction, 2023, [paper](https://link.springer.com/chapter/10.1007/978-3-031-35894-4_13)
+* 127
+A Brief Wellbeing Training Session Delivered by a Humanoid Social Robot: A Pilot Randomized Controlled Trial
+* 56Real conversations with artificial intelligence: A comparison between human–human online conversations and human–chatbot conversations
 
 ## 4. Challenges
 
