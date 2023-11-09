@@ -179,9 +179,8 @@ llm with visual capabilities. 2023. [Repo](https://github.com/cambridgeltl/visua
 * ChatCounselor: A Large Language Models for Mental Health Support. 2023. [paper](https://arxiv.org/abs/2309.15461)
 * An overview of the features of chatbots in mental health: A scoping review. 2019. [paper](https://www.sciencedirect.com/science/article/pii/S1386505619307166)
 * Tell me, what are you most afraid of? Exploring the Effects of Agent Representation on Information Disclosure in Human-Chatbot Interaction, 2023, [paper](https://link.springer.com/chapter/10.1007/978-3-031-35894-4_13)
-* 127
-A Brief Wellbeing Training Session Delivered by a Humanoid Social Robot: A Pilot Randomized Controlled Trial
-* 56Real conversations with artificial intelligence: A comparison between human–human online conversations and human–chatbot conversations
+* A Brief Wellbeing Training Session Delivered by a Humanoid Social Robot: A Pilot Randomized Controlled Trial. 2023. [paper](https://link.springer.com/article/10.1007/s12369-023-01054-5)
+* Real conversations with artificial intelligence: A comparison between human–human online conversations and human–chatbot conversations. 2015. [paper](https://www.sciencedirect.com/science/article/pii/S0747563215001247)
 
 ## 4. Challenges
 
