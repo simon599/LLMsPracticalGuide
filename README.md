@@ -119,6 +119,42 @@ llm with visual capabilities. 2023. [Repo](https://github.com/cambridgeltl/visua
 * MedPaLM
   * Large language models encode clinical knowledge. 2022. [paper](https://arxiv.org/abs/2212.13138)
 
+## 2.3 Training Data Sources
+### 2.3.1 Pre-training
+* 108
+* 12
+* 68
+* 44
+* 26
+* 26
+
+### 2.3.2 Fine-Tuning
+* 118
+* 148
+* 27
+* 156
+* 186
+* 65
+* 181
+* 90
+* 4
+* 2
+* 22
+* 185
+* 188
+* 5
+* 132
+* 105
+* 86
+* 51
+* 98
+* 166
+* 3
+* 108
+* 65
+* 136
+* 150
+
 ## 3. Clinical Applications
 
 ### 3.1 Medical Diagnosis
